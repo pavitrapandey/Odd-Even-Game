@@ -28,7 +28,7 @@ def odd_even_game():
 
     player_choice = get_player_choice("Choose 'odd' or 'even': ", ['odd', 'even'])
     player_number = get_player_number()
-    computer_number = r.randint(1, 10)
+
     computer_number = r.randint(1, 6)
 
     print(f"You chose {player_number}.")
